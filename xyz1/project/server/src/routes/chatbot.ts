@@ -36,7 +36,7 @@ try {
 // --- A Simple Search Function ---
 function searchKnowledgeBase(query: string): string | null {
   const queryUpper = query.toUpperCase();
-  const greetings = ['HELLO', 'HI', 'HEY'];
+  const greetings = ['HELLO', 'HI'];
   if (greetings.some(greeting => queryUpper.startsWith(greeting))) {
     return null;
   }
